@@ -49,7 +49,7 @@ on:
 
 jobs:
   phpunit:
-    uses: lunr-php/actions-templates/.github/workflows/phpunit.yml@master
+    uses: pprkut/lunr-actions/.github/workflows/phpunit.yml@test
     with:
       minimum-phpunit-version: ${{ inputs.minimum-phpunit-version }}
       php-extensions: ${{ inputs.php-extensions }}
