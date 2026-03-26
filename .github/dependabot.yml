@@ -6,3 +6,6 @@ updates:
       interval: "weekly"
     cooldown:
       default-days: 7
+    commit-message:
+      prefix: "General"
+      prefix-development: "General"
